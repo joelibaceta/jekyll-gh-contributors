@@ -19,7 +19,7 @@ module Jekyll
       contributors
     end
 
-    def render(_context)
+    def render(context)
 
       repo_url = "#{context[@content.strip]}"
       contributors = getContributors(repo_url)
