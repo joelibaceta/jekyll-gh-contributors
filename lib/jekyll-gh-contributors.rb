@@ -9,6 +9,7 @@ module Jekyll
   class ContributorsTag < Liquid::Tag
     def initialize(tag_name, text, tokens)
       super
+      @content = text
     end
 
     def getContributors(repo_url)
