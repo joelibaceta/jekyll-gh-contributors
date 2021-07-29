@@ -13,7 +13,7 @@ module Jekyll
     end
 
     def getContributors(repo_url)
-      uri = URI.parse("#{repo_url}/contributors")
+      uri = URI.parse("https://api.github.com/repos/#{repo_url}/contributors")
       response = Net::HTTP.get_response(uri)
 
       contributors = JSON.parse(response.body)
