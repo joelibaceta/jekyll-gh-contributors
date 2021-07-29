@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/jekyll/gh/contributors/version"
+require_relative "lib/jekyll-gh-contributors/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-gh-contributors"
-  spec.version       = Jekyll::Gh::Contributors::VERSION
+  spec.version       = Jekyll::JekyllGHContributors::VERSION
   spec.authors       = ["joel ibaceta"]
   spec.email         = ["mail@joelibaceta.com"]
 
