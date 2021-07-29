@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "jekyll/gh/contributors"
+require "jekyll-gh-contributors"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
